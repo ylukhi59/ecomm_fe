@@ -14,7 +14,7 @@ function Navigation() {
         <Grid item>
           <Box>
           <ul style={{display: "flex", justifyContent: "space-between"}}>
-            <li style={{padding: "0px 30px 0px 0px"}}><a href="/home">Home</a></li>
+            <li style={{padding: "0px 30px 0px 0px"}}><a href="/">Home</a></li>
             <li style={{padding: "0px 30px 0px 0px"}}><a href="/Shop">Shop</a></li>
             <li style={{padding: "0px 30px 0px 0px"}}><a href="/Product">Product</a></li>
             <li style={{padding: "0px 30px 0px 0px"}}><a href="/Collection">Collection</a></li>

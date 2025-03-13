@@ -1,18 +1,23 @@
-import React from 'react'
-import ProductHerosection from '../../Component/Product/ProductHerosection'
 import { Box } from '@mui/material'
-import Herosection from '../../Component/Global/Herosection'
-import Navigation from '../../Component/Global/Navigation'
+import React from 'react'
+import CollectionProductSlider from '../../Component/Collection/CollectionProductSlider'
 import Header from '../../Component/Global/Header'
-import ProductSlider from '../../Component/Collection/ProductSlider'
+import Navigation from '../../Component/Global/Navigation'
+import CollectionProductOuter from '../../Component/Collection/CollectionProductOuter'
+import CollectionProduct from '../../Component/Collection/CollectionProduct'
+import GetDiscount from '../../Component/Global/GetDiscount'
+import Footer from '../../Component/Global/Footer'
+import Herosection from '../../Component/Global/Herosection'
 
 function Collection() {
   return (
     <Box>
         <Header/>
-        <Navigation/>   
-        <Herosection Name={"Collections"} Home={"Home"}/>
-        <ProductSlider/>
+        <Navigation/>
+        <Herosection Home={"Home"} Name={"Collections"}/>
+        <CollectionProduct/>
+        <GetDiscount/>
+        <Footer/>
     </Box>
   )
 }

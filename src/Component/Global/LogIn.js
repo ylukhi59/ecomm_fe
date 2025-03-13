@@ -29,7 +29,7 @@ function LogIn() {
         sessionStorage.setItem("token", res.data.idToken); // Store token in sessionStorage
 
         // Redirect to the home page
-        navigate("/Home");
+        navigate("/");
       })
       .catch((err) => {
         console.error(err);

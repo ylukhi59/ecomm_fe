@@ -5,7 +5,7 @@ function PrivateRoute() {
   const auth = sessionStorage.getItem("token"); // Check if the user is authenticated
 
   // If authenticated, render the child components (protected routes), otherwise redirect to the Login page
-  return auth ? <Outlet /> : <Navigate to="/logIn" />;
+  return auth ? <Outlet /> : <Navigate to="/login"  />;
 }
 
 export default PrivateRoute;
