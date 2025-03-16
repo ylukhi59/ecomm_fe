@@ -81,6 +81,7 @@ function LogIn() {
                 backgroundColor: "#FB991C",
                 color: "#fff",
               },
+                whiteSpace: "nowrap"
             }}
           >
             Log In

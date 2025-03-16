@@ -71,6 +71,7 @@ import PrivateRoute from "./Component/Global/PrivateRoute";
 import Product from "./Pages/Product/Product";
 import Blog from '../src/Pages/Blog/Blog'
 import Collection from "./Pages/Collection/Collection";
+import Wishlist from "./Pages/Wishlist/Wishlist";
 
 function AppRoutes() {
   return (
@@ -82,6 +83,7 @@ function AppRoutes() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/page" element={<Page />} />
         <Route path="/Collection" element={<Collection/>}/>
+        <Route path="/Wishlist" element={<Wishlist/>}/>
       </Route>
       <Route path="/register" element={<SignUp />} />
       <Route path="/login" element={<LogIn />} />
